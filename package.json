@@ -1,0 +1,32 @@
+{
+    "name": "utorrent-client",
+    "preferGlobal": false,
+    "version": "0.0.1",
+    "author": "Joey Ciechanowicz",
+    "description": "a simple client for the utorrent api",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/bodyloss/utorrent-client"
+    },
+    "keywords": [
+        "utorrent",
+        "torrent",
+        "api"
+    ],
+    "scripts": {
+        "test": "vows --spec --isolate"
+    },
+    "dependencies": {
+        "request": "*"
+    },
+    "devDependencies": {
+        "vows": "*"
+    },
+    "engines": [
+        "node"
+    ],
+    "main": "./lib/utorrent-client",
+    "readmeFilename": "README.md",
+    "license": "MIT"
+}
+
