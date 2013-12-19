@@ -17,7 +17,6 @@
         "test": "vows --spec --isolate"
     },
     "dependencies": {
-        "request": "*"
     },
     "devDependencies": {
         "vows": "*"
