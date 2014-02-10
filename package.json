@@ -14,12 +14,13 @@
         "api"
     ],
     "scripts": {
-        "test": "vows --spec --isolate"
+        "test": "mocha"
     },
     "dependencies": {
     },
     "devDependencies": {
-        "vows": "*"
+        "mocha": "*",
+        "expect.js": "*"
     },
     "engines": [
         "node"
